@@ -1,0 +1,202 @@
+/*convertí el color del html a blanco porque el color que más se usa en la página en las letras es este*/
+html{
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+/*coloqué de fondo la imagen y no se repite*/
+.header{
+    background-image: url("../img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/*el título del header y el siguiente título poseen el mismo espaciado*/
+.alignTitle, .subtitle{
+    margin-left: 80px;
+}
+
+/*todas estas clases comparten el tamaño de letra*/
+.size, .alignTitle, .subtitle, .newTitle{
+    font-size: 50px;
+}
+
+.alignTitle{
+    display: inline-block;
+}
+.newTitle{
+    font-weight: lighter;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.nav{
+    display: inline-block;
+    margin-left: 450px;
+    margin-bottom: 190px;
+}
+.aboutTitle{
+    font-weight: 700;
+    font-size: x-large;
+}
+/*todas estas clases comparten la misma tipografía*/
+.subtitle, .contactTitle{
+    font-family: 'Roboto', sans-serif;
+}
+.subtitle{
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+/*todas estas clases comparten el color de letra*/
+.container, .deptData, .newTitle, .numberAlign{
+    color: black;
+}
+/*todas estas clases comparten la misma alineación*/
+.align, .newTitle, .deptTitle{
+    text-align: center;
+}
+/*primer container, contiene toda la información de los 3 iconos*/
+.container{
+    margin: 0px 0px 30px 100px;
+    width: 300px;
+    display: inline;
+    text-align: center;
+    box-sizing: content;
+    position: absolute;
+}
+/*primer subcontainer del primer y segundo container*/
+.container2, .containerDep{
+    left: 60px;
+}
+
+/*segundo subcontainer del primer y segundo container*/
+.container3, .containerDep1{
+    left: 400px;
+}
+
+/*tercero subcontainer del primer y segundo container*/
+.container4, .containerDep2{
+    left: 740px;
+}
+/*todas estas clases comparten el mismo tamaño*/
+.subtitleContainer, .container2, .container3, .container4{
+    font-size: small;
+}
+/*todas estas clases deben tener el borde*/
+.containerDep, .containerDep1, .containerDep2{
+    border: 1px solid rgb(145, 145, 145);
+}
+/*esta clase hace referencia a "Casas y Depts en Venta"*/
+.mainDeptTitle{
+    margin-top: 290px;
+}
+/*define el tamaño de las imagenes de los departamenos*/
+.imgSize{
+    width: 300px;
+    height: 200px;
+}
+
+.deptData{
+    margin-left: 20px;
+}
+/*hace referencia al tamaño del titulo de las casas/depts*/
+.titleDepts{
+    font-size: x-large;
+}
+/*Segundo container. Contiene las img de dept, título,descripción,precio y más información*/
+.containerDepts{
+    margin: 40px 0px 0px 100px;
+    width: 300px;
+    box-sizing: content;
+    position: absolute;
+    background-color: rgb(231, 231, 231);
+}
+.subtitleContainer, .price, .showAll, .showPropiety, .contactButton{
+    font-weight: bold;
+}
+.price{
+    color: rgb(66, 158, 66)
+}
+/*Contiene los iconos baño, estacionamiento y dormitorio*/
+.iconoCasa{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*margen del icono baño*/
+.marginWC{
+    left: 40px;
+}
+/*margen del icono estacionamiento*/
+.marginEst{
+    left: 120px;
+}
+/*margen del icono dormitorio*/
+.marginDorm{
+    left: 200px;
+}
+/*alineación de los numeros correspondientes a los iconos*/
+.numberAlign{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+/*hace referencia a los botones "ver propiedad"*/
+.showPropiety{
+    background-color: rgb(236, 157, 9);
+    background-size: contain;
+    text-align: center;
+    margin: 60px 10px 10px 10px;
+    padding: 10px 20px;
+}
+/*hace referencia al botón "ver todo"*/
+.showAll{
+    margin: 520px 0px 20px 1005px;
+    background-color: rgb(66, 158, 66);
+    width: max-content;
+    height: max-content;
+    padding: 10px 20px;
+}
+/*imagen de fonto de la sección contacto*/
+.contactBackground{
+    background-image: url("../img/encuentra.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*hace referencia a todo el texto de la sección contacto*/
+.contactText{
+    padding-top: 100px;
+    margin-left: 150px;
+    padding-bottom: 100px;
+}
+/*hace refencia solo al título de la sección contacto*/
+.contactTitle{
+    margin-bottom: 40px;
+}
+/*refiere al botón de la sección contacto*/
+.contactButton{
+    margin-top: 40px;
+    background-color: rgb(204, 135, 7);
+    width: max-content;
+    height: max-content;
+    padding: 10px 20px;
+}
+
+.footer{
+    background-color: rgb(51, 51, 51);
+}
+
+.navFooter{
+    padding: 20px 20px;
+}
+
+.copyrightText{
+    float: right;
+    padding: 0px;
+    margin: 0px;
+}
